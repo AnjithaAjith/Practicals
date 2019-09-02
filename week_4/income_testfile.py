@@ -12,7 +12,7 @@ def main():
     for month in range(1, months_count + 1):
         income_value = float(input("Enter income for month {} : ".format(month)))
         incomes.append(income_value)
-        income_report(incomes)
+    income_report(incomes)
 
 
 def income_report(incomes):
